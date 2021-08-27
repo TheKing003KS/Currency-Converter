@@ -1,0 +1,85 @@
+:root{
+	--clr-grey-3: hsl(209, 34%, 30%);
+	--clr-grey-10: hsl(210, 36%, 96%);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+}
+
+
+header {
+  background-color: #548ca8;
+  margin: 0;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  display: inline;
+}
+
+
+.central-area{
+	width: 30%;
+	padding: 5%;
+	text-align: center;
+	margin: 3% auto;
+	background:white;
+}
+
+.swap-button{
+	margin: 9% 0;
+	background-color: white;
+}
+
+.input{
+	margin-top: 11%;
+	padding: 2%;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.output-area{
+	text-align: center;
+	width: 100%;
+	padding: 5%;
+	padding-bottom: 0;
+	margin: 11% auto 0 auto;
+	color: #548ca8;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+footer p {
+  color: grey;
+}
